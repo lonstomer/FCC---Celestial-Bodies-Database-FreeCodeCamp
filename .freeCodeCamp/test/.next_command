@@ -71,3 +71,60 @@ git remote add origin https://github.com/lonstomer/FCC---Celestial-Bodies-Databa
 git remote -v
 git remote set-url origin https://github.com/lonstomer/FCC---Celestial-Bodies-Database-FreeCodeCamp.git
 git add .
+git commit -m "first commit"
+git push
+git branch -M main
+git push
+git config --global user.name
+git remote add origin https://github.com/lonstomer/FCC---Celestial-Bodies-Database-FreeCodeCamp.git
+git push origin main
+ls --color=auto ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+__vsc_prompt_cmd_original
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+ls --color=auto ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git push origin main
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:lonstomer/FCC---Celestial-Bodies-Database-FreeCodeCamp.git
+git remote -v
+git push origin main
+ssh -T git@github.com
+git gc --prune=now
+git push --no-thin origin main
+git push --force origin main
+git remote -v
+git remote set-url origin git@github.com:lonstomer/FCC---Celestial-Bodies-Database-FreeCodeCamp.git
+git remote -v
+git gc --prune=now
+git push --no-thin origin main
+mv project project_backup
+git push --force origin main
+git branch
+git branch -m master main
+git branch
+git add .
+git push --set-upstream origin main
+git branch
+git checkout -b main
+git log --oneline
+git add .
+git add .
+git add .
+git push --set-upstream origin main
+git status
+git init
+git status
+git add .
+ls --color=auto -la
+touch README.md
+git add .
+git push --set-upstream origin main
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+__vsc_prompt_cmd_original
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+\c universe
+\c universe
+psql -U freecodecamp -d universe
